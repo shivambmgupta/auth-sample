@@ -1,0 +1,28 @@
+GET http://localhost:3000/
+
+###
+
+POST http://localhost:3000/user/register
+Content-Type: application/json
+
+{
+    "name": "Shivam Gupta",
+    "username": "shivambmgupta",
+    "password": "Shivam@1",
+    "mobileNumber": "9425743714"
+}
+
+###
+
+POST http://localhost:3000/user/login
+Content-Type: application/json
+
+{
+     "username": "shivambmgupta",
+    "password": "Shivam@1"
+}
+
+###
+
+GET http://localhost:3000/user/greet
+Authorization: Brearer eyJbGciOiJIUzI1NiJ9.YXNkZmFzQGRzYWZzYS5jb20._dHyWNmE5KL1mWotGm6pc8i82PdUCaW1IkEHxywJEjA

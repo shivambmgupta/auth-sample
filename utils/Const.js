@@ -1,0 +1,8 @@
+export const SERVER_UP = "Server is Up and Running..."
+export const WELCOME_GREET = "Welcome!"
+export const INTERNAL_SERVER_ERROR = "Something went wrong! Please try again later."
+export const FORBIDDEN = "Access Denied!"
+export const SUCCESS = "Success!"
+export const ERROR = "Error!"
+export const FAILURE = "Failure!"
+export const USER_NOT_FOUND  = "User not found"
